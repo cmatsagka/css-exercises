@@ -68,6 +68,13 @@ li {
 
 .nav {
   background-color: #C50208;
+  display: grid;
+}
+
+.nav ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
 }
 
 .nav ul li {
