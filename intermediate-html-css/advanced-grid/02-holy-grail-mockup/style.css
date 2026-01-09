@@ -77,7 +77,6 @@ li {
 .nav ul {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  align-items: center;
 }
 
 .nav ul li {
@@ -103,9 +102,6 @@ li {
   background-color: #FFFFFF;
   color: black;
   text-align: center;
-}
-
-.card {
   height: 200px;
 }
 
@@ -113,6 +109,7 @@ li {
   color: black;
   font-weight: normal;
   font-size: 14px;
+  padding: 5px;
 }
 
 .card .title {
@@ -123,8 +120,6 @@ li {
 .footer {
   background-color: #393f4d;
   grid-column: 1 / -1;
-  display: grid;
-  align-items: center;
 }
 
 .footer p {
