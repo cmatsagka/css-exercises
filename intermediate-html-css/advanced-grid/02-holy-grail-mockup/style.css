@@ -27,8 +27,12 @@ li {
   background-color: #393f4d;
   grid-column: 1 / -1;
   display: grid;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 1fr 2fr;
   align-items: center;
+}
+
+.logo {
+  justify-self: start;
 }
 
 .menu ul {
