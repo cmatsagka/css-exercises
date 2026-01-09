@@ -48,6 +48,8 @@ li {
 .sidebar {
   background-color: #C50208;
   grid-row: 2 / 4;
+  display: grid;
+  gap: 15px;
 }
 
 .sidebar .photo {
@@ -56,6 +58,7 @@ li {
   font-size: 12px;
   font-weight: normal;
   border-radius: 10px;
+  align-content: center;
 }
 
 
@@ -64,6 +67,7 @@ li {
   color: black;
   font-size: 16px;
   font-weight: normal;
+  align-content: center;
 }
 
 .nav {
