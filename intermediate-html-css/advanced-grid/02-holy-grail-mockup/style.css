@@ -10,7 +10,6 @@ li {
 .container {
   text-align: center;
   display: grid;
-  grid-template-rows: 2fr 1fr 10fr 1fr;
   grid-template-columns: 1fr 4fr;
   gap: 4px;
 }
@@ -49,7 +48,7 @@ li {
   background-color: #C50208;
   grid-row: 2 / 4;
   display: grid;
-  gap: 15px;
+  gap: 50px;
 }
 
 .sidebar .photo {
@@ -88,6 +87,9 @@ li {
 
 .article {
   background-color: #bccbde;
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
 .article p {
@@ -101,6 +103,10 @@ li {
   background-color: #FFFFFF;
   color: black;
   text-align: center;
+}
+
+.card {
+  height: 200px;
 }
 
 .card p {
