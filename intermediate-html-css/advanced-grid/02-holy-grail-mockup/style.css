@@ -3,11 +3,16 @@
   padding: 0;
 }
 
+li {
+  list-style: none;
+}
+
 .container {
   text-align: center;
   display: grid;
   grid-template-rows: 2fr 1fr 10fr 1fr;
   grid-template-columns: 1fr 4fr;
+  gap: 4px;
 }
 
 .container div {
